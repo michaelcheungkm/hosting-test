@@ -1,0 +1,304 @@
+.center {
+    width:900px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 0%;
+    gap: 0px;
+    margin:0px;
+    max-width: 800px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #0f1729;
+}
+    
+.grid-item {
+    background-color: hsl(222 47% 11% / 1);
+    padding: 15px;
+    font-size: 100%;
+    text-align: left;
+    border: 1px solid transparent;
+    font-size:17px;
+    max-width: 250px;
+}
+
+#grid-header {
+    background-color: #0f1729;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#wrapper {
+    background-color: #323948;
+    padding:5%;
+    padding-top:1%;
+    margin:5%;
+    border-radius: 25px;
+    border: 2px solid #828DF8;
+}
+
+.body {
+    background-color: hsla(222 47% 11% / 1);
+    color: #b3c5ef;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#task-desc {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    min-height: 40px;
+    padding-top: 15px;
+    margin-left: 80px;
+    padding-left: 26px;
+    margin-right: 30px;
+    background-color: #1D2539;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+}
+
+.form-row input[type="text"],
+.form-row select,
+.form-row input[type="date"],
+.form-row button {
+    margin-right: 20px;
+    padding:8px 8px 8px 8px;
+    color: #B3C5EF;
+}
+
+#legend {
+    display: flex;
+    align-items: center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+#legend h3{
+    margin-right: auto;
+}
+
+#legend .dot{
+    margin: auto;
+}
+
+#header {
+    text-align: center;
+    font-weight:900;
+    font-size: 20px;
+}
+
+#header h1{
+    margin: 15px auto 15px auto;
+}
+
+input[type=text] {
+    width: auto;
+    border: 2px solid #828DF8;
+    border-radius: 6px;
+    background-color: rgba(22, 17, 68, 0.8);
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    max-width: 150px;
+}
+
+select {
+    width: auto;
+    border: 2px solid #828DF8;
+    border-radius: 6px;
+    background-color: rgba(22, 17, 68, 0.8);
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+}
+
+input[type=date] {
+    width: auto;
+    border: 2px solid #828DF8;
+    border-radius: 6px;
+    background-color: rgba(22, 17, 68, 0.8);
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    min-width: 100px;
+}
+
+.defaultSubmit[type=submit] {
+    width: auto;
+    border: 2px solid #828DF8;
+    border-radius: 12px;
+    background-color: #828DF8;
+    font-family: 'Poppins', sans-serif;
+    font-size:25px;
+    padding: 2px 17px 2px 17px;
+    margin-right:0px;
+    color: black;
+}
+
+.editButton[type=submit] {
+    background-color: #82F8AB;
+    border: 2px solid #82F8AB;
+    width: auto;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size:25px;
+    padding: 2px 17px 2px 17px;
+    margin-right:0px;
+    color: black;
+}
+
+:root {
+    --checkbox-border-color: #8b8c89;
+    --checkbox-checked-color: #274c77;
+    --checkbox-hover-color: #a3cef1;
+    --checkbox-disabled-bg-color: #d9d9d9;
+}
+
+.checkbox-prio{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    padding: 0;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    transition: outline 0.1s;
+}
+
+.checkbox-prio[type="checkbox"]:checked{
+    background-size: cover;
+    padding: 2px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1828/1828970.png');
+}
+
+.checkbox-prio[type="checkbox"]:not(:disabled):checked {
+    border-color: var(--checkbox-checked-color);
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1828/1828884.png');
+}
+
+.checkbox-prio[type="checkbox"]:not(:checked) {
+    background-size: cover;
+    padding: 2px;
+    background-image: url('assets/star.png');
+}
+
+.checkbox-edit{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    padding: 0;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    transition: outline 0.1s;
+}
+
+.checkbox-edit[type="checkbox"]:not(:checked) {
+    background-size: cover;
+    padding: 2px;
+    background-image: url('assets/edit_uncheck.png');
+}
+
+.checkbox-comp{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    padding: 0;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    transition: outline 0.1s;
+}
+
+.checkbox-comp[type="checkbox"]:checked{
+    background-size: cover;
+    padding: 2px;
+    background-image: url('assets/desc_check.png');
+}
+
+.checkbox-comp[type="checkbox"]:not(:disabled):checked {
+    border-color: var(--checkbox-checked-color);
+    background-image: url('assets/desc_check.png');
+}
+
+.checkbox-comp[type="checkbox"]:not(:checked) {
+    background-size: cover;
+    padding: 2px;
+    background-image: url('assets/desc_uncheck.png');
+}
+
+.checkbox-del{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    padding: 0;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    transition: outline 0.1s;
+}
+
+.checkbox-del[type="checkbox"]:not(:checked) {
+    background-size: cover;
+    padding: 2px;
+    background-image: url('assets/delete.png');
+}
+
+@media only screen and (max-width: 900px) {
+    .center{
+        width:auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #wrapper{
+        margin:0px;
+        padding:10px;
+    }
+
+    .form-row{
+        flex-direction: column;
+    }
+    
+    .form-row input[type="text"],
+    .form-row select,
+    .form-row input[type="date"],
+    .form-row button {
+        margin-right: 0;
+        padding:8px 8px 8px 8px;
+        min-width: 300px;
+        max-width: 300px;
+        margin-top:10px;
+    }
+    .form-row select{
+        min-width: 320px;
+        max-width: 320px;
+    }
+    #legend{
+        font-size:small;
+    }
+    .grid-item{
+        font-size:15px;
+    }
+    #grid-header{
+        font-size:10px;
+    }
+    #task-desc{
+        font-size:15px;
+    }
+}

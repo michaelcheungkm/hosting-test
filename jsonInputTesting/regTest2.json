@@ -1,0 +1,42 @@
+[
+    {
+        "task":"Prepare Dinner",
+        "prio":"0",
+        "complete":"0",
+        "date":"2020-04-22",
+        "tag":"Personal",
+        "desc":"Cook up some food"
+    },
+    {
+        "task":"Buy a Microphone",
+        "prio":"0",
+        "complete":"0",
+        "date":"2022-04-22",
+        "tag":"Personal",
+        "desc":"Buy a new microphone off amazon"
+    },
+    {
+        "task":"Lab 4",
+        "prio":"1",
+        "complete":"0",
+        "date":"2025-04-24",
+        "tag":"School",
+        "desc":"Finish Lab 4"
+    },
+    {
+        "task":"Open VSCode",
+        "prio":"0",
+        "complete":"0",
+        "date":"2024-04-25",
+        "tag":"Work",
+        "desc":"Install and open up VSCode"
+    },
+    {
+        "task":"Push to branch",
+        "prio":"1",
+        "complete":"0",
+        "date":"2020-04-21",
+        "tag":"Work",
+        "desc":"zz"
+    }
+]

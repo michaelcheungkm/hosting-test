@@ -1,0 +1,42 @@
+[
+    {
+        "task":"Make food",
+        "prio":"0",
+        "complete":"0",
+        "date":"2020-04-22",
+        "tag":"Personal",
+        "desc":"Cook up some food"
+    },
+    {
+        "task":"Hang out",
+        "prio":"0",
+        "complete":"0",
+        "date":"2023-04-22",
+        "tag":"Personal",
+        "desc":"Hang out with friends"
+    },
+    {
+        "task":"Lab 3",
+        "prio":"1",
+        "complete":"0",
+        "date":"2024-04-24",
+        "tag":"School",
+        "desc":"Finish Lab 3"
+    },
+    {
+        "task":"Go to work",
+        "prio":"0",
+        "complete":"0",
+        "date":"2024-04-25",
+        "tag":"Work",
+        "desc":"Go to work"
+    },
+    {
+        "task":"Walk around the park",
+        "prio":"1",
+        "complete":"0",
+        "date":"2020-04-21",
+        "tag":"Misc",
+        "desc":"Walk around the park a lot"
+    }
+]
